@@ -13,8 +13,9 @@
   with_items:
     - libpq5
     - libpq-dev
+    - python-psycopg2
 
-- name: Install PostgreSQL driver for Python
-  pip: name=psycopg2
-       # version={{ postgresql_support_psycopg2_version }}
-       state=present
+# - name: Install PostgreSQL driver for Python
+#   pip: name=psycopg2
+#       # version={{ postgresql_support_psycopg2_version }}
+#       state=present
