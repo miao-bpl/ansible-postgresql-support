@@ -14,4 +14,4 @@ galaxy_info:
   - database:sql
 dependencies:
   - { role: "azavea.python", python_development: True }
-  - { role: "pip" }
+  - { role: "ansible-pip" }
