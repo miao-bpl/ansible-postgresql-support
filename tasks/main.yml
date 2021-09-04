@@ -15,7 +15,6 @@
 #    - libpq-dev
 #    - python-psycopg2
   apt:
-    become: yes
     name:
       - libpq5
       - libpq-dev
